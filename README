@@ -1,0 +1,53 @@
+*********************************************
+Name: Vithursan    Student#: 0821795 
+
+ASSIGNMENT 2: ROGUE with ncurses library    
+*********************************************
+
+*********************************************
+Compiling the program
+*********************************************
+
+    On the terminal in the root directory(a2),
+    type 'make'. You should see 'gcc -Wall -ansi
+    src/rogue.c src/roguefunctions.c  
+    -o bin/rogue -Iinclude -lncurses'. That means
+    that the program has compiled.
+
+
+*********************************************
+Running the program
+*********************************************
+
+    To run the program, you should be on the
+    terminal in the root directory(a2) already,
+    then type 'cd bin' to change to the 
+    binary folder. Then type './rogue rooms.txt' to enter
+    the program, where rooms.txt is the input file with 
+    the rooms in it(the file 'rooms.txt' must be in the 
+    bin folder to work). Use the i,j,k,l keys to move. 
+    Press 'n' to teleport to next room and 'q' 
+    to exit the program and return to the
+    terminal command line.
+
+*********************************************
+Known limitations
+*********************************************
+
+    In the input file 'rooms.txt', the dimensions
+    should alway be immediatly proceeded by an object 
+    such as treasure or a monster signified by 't','m' etc.
+    and not by info for a door.
+
+    ex. like this 10X6 t5,2........
+
+        and not like this 10X6 de7.....
+    
+    Door elements can be in any other order except for being
+    the first after the dimensions as stated above.
+    (then can technically and the room will still work but if
+    each line is read in with the door elements immediatly after
+    the dimensions there will be a weird bug and you won't
+    be able to play the game, so its best to start with 
+    another element)
+

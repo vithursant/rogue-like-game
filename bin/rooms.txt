@@ -1,0 +1,8 @@
+30X30 w19,12 de7 dw9 ds8 dn2 t18,17 m13,14 p15,18 t18,19 h15,16
+15X15 t2,2 h3,3 de9 dw9 ds9
+10X10 t8,7 dn9 m3,4 h6,6 w3,3 de9 dw9 ds9
+10X16 m3,4 de4 dw8 ds3 dn2 t2,5 h5,5
+9X11 h4,7 t6,6
+10X10 t8,7 de4 dw9 ds8 dn2 m3,4 w3,3 h6,6
+12X13 h5,6 de4 dw8
+14X10 h6,4 dn4 ds4 de6 dw9 p4,8 t2,1 w1,9 m9,9
